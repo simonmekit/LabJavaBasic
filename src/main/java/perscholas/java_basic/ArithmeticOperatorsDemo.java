@@ -1,4 +1,4 @@
-package com.perscholas.java_basics;
+package perscholas.java_basic;
 
 public class ArithmeticOperatorsDemo {
 

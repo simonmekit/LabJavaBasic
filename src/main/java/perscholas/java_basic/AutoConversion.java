@@ -1,6 +1,6 @@
-package com.perscholas.java_basics;
+package perscholas.java_basic;
 
-public class AutoTypeConversion {
+public class AutoConversion {
     public static void main(String[] args) {
         int x = 20;
         double y = 40.5;

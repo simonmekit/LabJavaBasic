@@ -1,4 +1,4 @@
-package com.perscholas.java_basics;
+package perscholas.java_basic;
 public class AutoPromoteTest {
     public static void main(String[] args)
     {
