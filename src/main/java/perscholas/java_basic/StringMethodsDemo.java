@@ -43,9 +43,11 @@ public class StringMethodsDemo {
         // converting array to string and printing it
         System.out.println("result = " + Arrays.toString(result));
 
+        //charAt()
         String msg = "Welcome to Java";
         System.out.println("The first character in the message is " + msg.charAt(0));
 
+        //compareTo()
         String s11="hello";
         String s21="hello";
         String s31="hemlo";
@@ -55,9 +57,10 @@ public class StringMethodsDemo {
         System.out.println(s11.compareTo(s41)); // 2 because "h" is 2 times greater than "f"
 
         String str12 = "java is fun";
-
+        //substring() method
+        //stringObject.substring(startIndex, endIndex)
         // extract substring from index 0 to 3
-        System.out.println(str12.substring(0, 4));
+        System.out.println(str12.substring(0, 4)); //java
         System.out.println(str12.indexOf('v'));//2
         System.out.println(str12.lastIndexOf('j'));//0
         System.out.println(str12.lastIndexOf('a'));//3
@@ -113,18 +116,15 @@ public class StringMethodsDemo {
         System.out.println(s15.equals(s45));//false
 
         System.out.println(s15 == s25);//true (because both refer to same instance)
-        System.out.println(s15 == s35);//false(because s35 refers to instance created in nonpool)
+        System.out.println(s15 == s35);
+        //false(because s35 refers to instance created in the heap memory(non-pool))
 
         String s16="Perscholas";
         String s26="Perscholas";
         String s36="Perschola";
         String s46="PerscholasX";
         System.out.println(s16.compareTo(s26)); //0
-        System.out.println(s16.compareTo(s36)); // 1(because s1>s3)
-        System.out.println(s16.compareTo(s46)); // -1(because s1<s4 )
-
-
-
-
-    }
+        System.out.println(s16.compareTo(s36)); // 1(because s16>s36)
+        System.out.println(s16.compareTo(s46)); // -1(because s16<s46 )
+}
 }

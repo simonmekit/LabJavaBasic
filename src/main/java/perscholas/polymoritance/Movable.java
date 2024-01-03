@@ -1,0 +1,9 @@
+package perscholas.polymoritance;
+
+public interface Movable {
+    void moveUp();
+    void moveDown();
+    void moveLeft();
+    void moveRight();
+    String getCoordinate();
+}

@@ -16,5 +16,8 @@ public class WrapperClassesDemo {
         System.out.println(c1);
         System.out.println(cc1);
 
+        System.out.println(Character.isLetterOrDigit('0'));
+        Character asciiNumber = 64;
+        System.out.println(asciiNumber);
     }
 }
