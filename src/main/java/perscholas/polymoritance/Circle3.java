@@ -24,7 +24,8 @@ public class Circle3 extends Shape3 implements Movable{
     }
     @Override
     public void displayshapeName(){
-        System.out.println("Drawing a circle of radiue " + this.radius);
+
+        System.out.println("Drawing a circle of radius " + this.radius);
     }
     @Override
     public String toString(){
